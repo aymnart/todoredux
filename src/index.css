@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="checkbox"] {
+  display: none;
+}
+.todo {
+  overflow-y: scroll;
+  height: 400px;
+  scrollbar-width: auto;
+  scrollbar-color: #ea580c;
+}
